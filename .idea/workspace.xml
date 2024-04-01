@@ -4,14 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e2fd16-da29-4b03-a9e5-649ba54e8bc5" name="Changes" comment="" />
+    <list default="true" id="02e2fd16-da29-4b03-a9e5-649ba54e8bc5" name="Changes" comment="maven dependencies">
+      <change afterPath="$PROJECT_DIR$/src/test/java/drivers/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/drivers/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/GoogleTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/PropertyManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
@@ -26,9 +44,78 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+    "TestNG.GoogleTests.openGooglePageTest.executor": "Run",
+    "TestNG.GoogleTests.searchGoogleOnGoogle.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/Users/ugurkaanyesil/r_d java ödevleri/e2e-web-hw/src/test/java",
+    "last_opened_file_path": "/Users/ugurkaanyesil/r_d java ödevleri/e2e-web-hw/src/test"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="drivers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.GoogleTests.openGooglePageTest">
+    <configuration name="GoogleTests.openGooglePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="e2e-web-hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.GoogleTests" />
+      <option name="METHOD_NAME" value="openGooglePageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleTests.searchGoogleOnGoogle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="e2e-web-hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.GoogleTests" />
+      <option name="METHOD_NAME" value="searchGoogleOnGoogle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GoogleTests.openGooglePageTest" />
+        <item itemvalue="TestNG.GoogleTests.searchGoogleOnGoogle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-9b16c6e2" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,6 +125,28 @@
       <option name="presentableId" value="Default" />
       <updated>1711999551455</updated>
     </task>
+    <task id="LOCAL-00001" summary="create project">
+      <option name="closed" value="true" />
+      <created>1711999625337</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711999625337</updated>
+    </task>
+    <task id="LOCAL-00002" summary="maven dependencies">
+      <option name="closed" value="true" />
+      <created>1712000044209</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712000044209</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create project" />
+    <MESSAGE value="maven dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven dependencies" />
   </component>
 </project>
