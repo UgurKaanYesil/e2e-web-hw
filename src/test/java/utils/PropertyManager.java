@@ -8,22 +8,25 @@ import java.util.Properties;
 
 public class PropertyManager {
 
-    private Properties properties;
+    Properties property;
 
     public PropertyManager() {
-        this.properties = new Properties();
+        Properties props = new Properties();
         try {
-            properties.load(new FileReader(new File(ClassLoader.getSystemResource("config.properties").getPath())));
+            props.load(new FileReader(new File(ClassLoader.getSystemResource("config.properties").getPath())));
+            property = props;
         } catch (IOException ex) {
+            // handle error
             System.out.println("Properties file not found!");
         }
     }
 
+
     public String getProperty(String key) {
-        String value = properties.getProperty(key);
-        if (value == null) {
-            throw new IllegalArgumentException("Property with key '" + key + "' not found in config.properties file.");
+        Properties props = property;
+        if (props != null) {
+            return props.getProperty(key);
         }
-        return properties.getProperty(key);
+        return null;
     }
 }
