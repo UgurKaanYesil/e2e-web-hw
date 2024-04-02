@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02e2fd16-da29-4b03-a9e5-649ba54e8bc5" name="Changes" comment="maven dependencies">
-      <change afterPath="$PROJECT_DIR$/src/test/java/drivers/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/drivers/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/GoogleTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/PropertyManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+    <list default="true" id="02e2fd16-da29-4b03-a9e5-649ba54e8bc5" name="Changes" comment="add button click hw">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DemoQaTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +26,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2eVpMVpqto79BDvswTEXOQnlByr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,6 +39,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.DemoQA.clickButtonsHW.executor": "Run",
+    "TestNG.DemoQA.executor": "Run",
+    "TestNG.DemoQA.openDemoQaPageTest.executor": "Run",
+    "TestNG.DemoQaButton.clickButtonsHW.executor": "Run",
+    "TestNG.DemoQaButton.openDemoQaPageTest.executor": "Run",
+    "TestNG.DemoQaTable.sendAndEditTableTest.executor": "Run",
     "TestNG.GoogleTests.openGooglePageTest.executor": "Run",
     "TestNG.GoogleTests.searchGoogleOnGoogle.executor": "Run",
     "kotlin-language-version-configured": "true",
@@ -65,12 +66,83 @@
       <recent name="drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GoogleTests.openGooglePageTest">
-    <configuration name="GoogleTests.openGooglePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DemoQaTable.sendAndEditTableTest">
+    <configuration name="DemoQaButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="e2e-web-hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.DemoQaButton" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.DemoQaButton" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoQaButton.clickButtonsHW" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="e2e-web-hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.DemoQaButton" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.DemoQaButton" />
+      <option name="METHOD_NAME" value="clickButtonsHW" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoQaButton.openDemoQaPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="e2e-web-hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.DemoQaButton" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.DemoQaButton" />
+      <option name="METHOD_NAME" value="openDemoQaPageTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoQaTable.sendAndEditTableTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="e2e-web-hw" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.DemoQaTable" />
+      <option name="METHOD_NAME" value="sendAndEditTableTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleTests.openGooglePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="e2e-web-hw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.DemoQaButton" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,28 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleTests.searchGoogleOnGoogle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="e2e-web-hw" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.GoogleTests" />
-      <option name="METHOD_NAME" value="searchGoogleOnGoogle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DemoQaTable.sendAndEditTableTest" />
+        <item itemvalue="TestNG.DemoQaButton.clickButtonsHW" />
+        <item itemvalue="TestNG.DemoQaButton.openDemoQaPageTest" />
         <item itemvalue="TestNG.GoogleTests.openGooglePageTest" />
-        <item itemvalue="TestNG.GoogleTests.searchGoogleOnGoogle" />
+        <item itemvalue="TestNG.DemoQaButton" />
       </list>
     </recent_temporary>
   </component>
@@ -141,12 +198,30 @@
       <option name="project" value="LOCAL" />
       <updated>1712000044209</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first implementation">
+      <option name="closed" value="true" />
+      <created>1712003506427</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712003506427</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add button click hw">
+      <option name="closed" value="true" />
+      <created>1712087171092</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712087171092</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create project" />
     <MESSAGE value="maven dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven dependencies" />
+    <MESSAGE value="first implementation" />
+    <MESSAGE value="add button click hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="add button click hw" />
   </component>
 </project>
