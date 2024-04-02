@@ -20,7 +20,7 @@ public class DemoQaTable {
     public static WebDriver driver;
     Driver webDriver = new Driver();
     PropertyManager propertyManager= new PropertyManager();
-    String url =propertyManager.getProperty("APP_DEMOQA_BUTTON_URL");
+    String url =propertyManager.getProperty("APP_DEMOQA_TABLE_URL");
 
     public class ScrollToElement {
         public static void scrollToElement (WebDriver driver, WebElement element) {
